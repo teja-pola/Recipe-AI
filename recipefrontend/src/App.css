@@ -1,0 +1,93 @@
+
+
+/* App.css */
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  background-image: url('C:\Users\likit\OneDrive\Desktop\kumar\recipefrontend\public\Ai  Revipe generator 3.png'); /* Background image URL */
+  background-size: cover; /* Cover the entire screen */
+  background-position: center center; /* Center the background image */
+  background-attachment: fixed; /* Make the background fixed while scrolling */
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.title-image{
+  width: 80%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.input-section {
+  margin-bottom: 30px;
+}
+
+.robot-icon{
+  width: 40px;
+  
+}
+.ingredients-input {
+  width: 90%;
+  height: 100px;
+  padding: 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: #1d1d2c;
+  color: #fff;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+.generate-button {
+  background: linear-gradient(135deg, #6a00f4, #a749ff);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.generate-button:hover {
+  background: linear-gradient(135deg, #a749ff, #6a00f4);
+}
+
+.output-section {
+  background: #1d1d2c;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.output-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.loading-text {
+  color: #ffcc00;
+  font-size: 0.9rem;
+}
+
+.recipe-output {
+  background: #3a3a4f;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #e3e3e3;
+  text-align: left;
+  white-space: pre-wrap; /* Preserve line breaks */
+}

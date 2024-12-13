@@ -1,0 +1,9 @@
+name = "recipemaker"
+main = "src/index.js"
+compatibility_date = "2024-11-29"
+
+account_id = "013fc775727503212f1f4338da19ee7a"
+workers_dev = true
+
+[ai]
+binding = "AI"

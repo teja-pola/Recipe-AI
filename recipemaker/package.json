@@ -1,0 +1,16 @@
+{
+  "name": "recipemaker",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "3.91.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "hono": "^4.6.12",
+    "react-dom": "^18.3.1"
+  }
+}
